@@ -1,0 +1,142 @@
+h1 {
+    color: #1d4ed8;
+    font-size:2.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-decoration: underline;
+    text-decoration-thickness: 0.1em;
+    text-decoration-color: #1d4ed8;
+}
+
+/* ---------- Carrito ---------- */
+.cesta {
+    max-width: 40rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.contador {
+    font-size: 1.25rem;
+    text-transform: none;
+    text-decoration: none;
+    color: #6b7280;
+    letter-spacing: normal;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.portada {
+    width: 72px;
+    height: 104px;
+    flex-shrink: 0;
+    background: #e5e7eb;
+    border-radius: 4px;
+}
+
+.item-info {
+    flex: 1;
+    min-width: 0;
+}
+
+.item-info h2 {
+    font-size: 1.05rem;
+    margin: 0 0 0.25rem;
+}
+
+.item-info p {
+    margin: 0;
+    color: #6b7280;
+    font-size: 0.9rem;
+}
+
+.qty {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.qty button {
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    background: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.precio {
+    font-weight: 700;
+    white-space: nowrap;
+    margin: 0;
+}
+
+.resumen {
+    padding: 1.5rem 0;
+}
+
+.resumen dl {
+    margin: 0 0 1.5rem;
+}
+
+.resumen dl > div {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem 0;
+}
+
+.resumen dt,
+.resumen dd {
+    margin: 0;
+}
+
+.resumen .total {
+    font-weight: 700;
+    font-size: 1.15rem;
+    border-top: 1px solid #e5e7eb;
+    margin-top: 0.5rem;
+    padding-top: 0.75rem;
+}
+
+.tramitar {
+    width: 100%;
+    padding: 0.9rem;
+    border: none;
+    border-radius: 6px;
+    background: #1d4ed8;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+body > nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    padding: 0.75rem 0;
+    border-top: 1px solid #e5e7eb;
+}
+
+body > nav a {
+    text-decoration: none;
+    color: #6b7280;
+}
+
+body > nav a[aria-current="page"] {
+    color: #1d4ed8;
+    font-weight: 700;
+}

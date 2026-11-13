@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi cesta · Trastienda</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mi cesta <span class="contador">· 2 artículos</span></h1>
+    </header>
+
+    <main class="cesta">
+        <section aria-label="Artículos de la cesta">
+            <article class="item">
+                <div class="portada" role="img" aria-label="Portada de La paciente silenciosa"></div>
+                <div class="item-info">
+                    <h2>La paciente silenciosa</h2>
+                    <p>Alex Michaelides · Tapa dura</p>
+                    <div class="qty">
+                        <button type="button" aria-label="Quitar uno">−</button>
+                        <span aria-label="Cantidad">1</span>
+                        <button type="button" aria-label="Añadir uno">+</button>
+                    </div>
+                </div>
+                <p class="precio">19,90 €</p>
+            </article>
+
+            <article class="item">
+                <div class="portada" role="img" aria-label="Portada de El silencio de la ciudad blanca"></div>
+                <div class="item-info">
+                    <h2>El silencio de la ciudad blanca</h2>
+                    <p>Eva García Sáenz de Urturi · Ebook</p>
+                    <div class="qty">
+                        <button type="button" aria-label="Quitar uno">−</button>
+                        <span aria-label="Cantidad">1</span>
+                        <button type="button" aria-label="Añadir uno">+</button>
+                    </div>
+                </div>
+                <p class="precio">9,99 €</p>
+            </article>
+        </section>
+
+        <section class="resumen" aria-label="Resumen del pedido">
+            <dl>
+                <div>
+                    <dt>Subtotal</dt>
+                    <dd>29,89 €</dd>
+                </div>
+                <div>
+                    <dt>Envío</dt>
+                    <dd>Gratis</dd>
+                </div>
+                <div class="total">
+                    <dt>Total</dt>
+                    <dd>29,89 €</dd>
+                </div>
+            </dl>
+            <button type="button" class="tramitar">Tramitar pedido</button>
+        </section>
+    </main>
+
+    <nav aria-label="Secciones de la app">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="explorar.html">Explorar</a></li>
+            <li><a href="carrito.html" aria-current="page">Cesta</a></li>
+            <li><a href="perfil.html">Perfil</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
